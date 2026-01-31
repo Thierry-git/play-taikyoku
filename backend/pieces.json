@@ -159,5 +159,341 @@
             "promotion": "free king",
             "rank": 5
         }
+    },
+
+    "wooden dove": {
+        "description": {
+            "name": "wooden dove",
+            "symbol": "WO",
+            "kanji": "鳩槃",
+            "romaji": "kyūhan"
+        },
+        "rules": {
+            "movement": "R2BG(G-B2)",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "ceramic dove": {
+        "description": {
+            "name": "ceramic dove",
+            "symbol": "CD",
+            "kanji": "鳩盤",
+            "romaji": "kyūban"
+        },
+        "rules": {
+            "movement": "R2B",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "earth dragon": {
+        "description": {
+            "name": "earth dragon",
+            "symbol": "ED",
+            "kanji": "地龍",
+            "romaji": "chiryū"
+        },
+        "rules": {
+            "movement": "fFbWfR2bB",
+            "promotion": "rain dragon",
+            "rank": 5
+        }
+    },
+
+    "free demon": {
+        "description": {
+            "name": "free demon",
+            "symbol": "FR",
+            "kanji": "奔鬼",
+            "romaji": "honki"
+        },
+        "rules": {
+            "movement": "BvR5sR",
+            "promotion": "free king",
+            "rank": 5
+        }
+    },
+
+    "running horse": {
+        "description": {
+            "name": "running horse",
+            "symbol": "HR",
+            "kanji": "走馬",
+            "romaji": "sōma"
+        },
+        "rules": {
+            "movement": "bWbAfQ",
+            "promotion": "free demon",
+            "rank": 5
+        }
+    },
+
+    "beast cadet": {
+        "description": {
+            "name": "beast cadet",
+            "symbol": "BC",
+            "kanji": "獣曹",
+            "romaji": "jūsō"
+        },
+        "rules": {
+            "movement": "B2fsR2",
+            "promotion": "beast officer",
+            "rank": 5
+        }
+    },
+
+    "tengu": {
+        "description": {
+            "name": "tengu",
+            "symbol": "LO",
+            "kanji": "天狗",
+            "romaji": "tengu"
+        },
+        "rules": {
+            "movement": "B(B-sB)",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "right mountain eagle": {
+        "description": {
+            "name": "right mountain eagle",
+            "symbol": "MR",
+            "kanji": "右山鷲",
+            "romaji": "usanshū"
+        },
+        "rules": {
+            "movement": "RrAblB2fBbrB",
+            "promotion": "flying eagle",
+            "rank": 5
+        }
+    },
+
+    "left mountain eagle": {
+        "description": {
+            "name": "left mountain eagle",
+            "symbol": "ML",
+            "kanji": "左山鷲",
+            "romaji": "sasanshū"
+        },
+        "rules": {
+            "movement": "RlAbrB2fBblB",
+            "promotion": "flying eagle",
+            "rank": 5
+        }
+    },
+
+    "fire demon": {
+        "description": {
+            "name": "fire demon",
+            "symbol": "DM",
+            "kanji": "火鬼",
+            "romaji": "kaki"
+        },
+        "rules": {
+            "movement": "vR2sQ",
+            "promotion": "free fire",
+            "rank": 5
+        }
+    },
+
+    "free fire": {
+        "description": {
+            "name": "free fire",
+            "symbol": "FF",
+            "kanji": "奔火",
+            "romaji": "honka"
+        },
+        "rules": {
+            "movement": "vR5sQ",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "whale": {
+        "description": {
+            "name": "whale",
+            "symbol": "W",
+            "kanji": "鯨鯢",
+            "romaji": "keigei"
+        },
+        "rules": {
+            "movement": "vRbB",
+            "promotion": "great whale",
+            "rank": 5
+        }
+    },
+
+    "great whale": {
+        "description": {
+            "name": "great whale",
+            "symbol": "GW",
+            "kanji": "大鯨",
+            "romaji": "daigei"
+        },
+        "rules": {
+            "movement": "vRB",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "running rabbit": {
+        "description": {
+            "name": "running rabbit",
+            "symbol": "RR",
+            "kanji": "走兎",
+            "romaji": "sōto"
+        },
+        "rules": {
+            "movement": "bKfQ",
+            "promotion": "treacherous fox",
+            "rank": 5
+        }
+    },
+
+    "white tiger": {
+        "description": {
+            "name": "white tiger",
+            "symbol": "WT",
+            "kanji": "白虎",
+            "romaji": "byakko"
+        },
+        "rules": {
+            "movement": "vR2sRflB",
+            "promotion": "divine tiger",
+            "rank": 5
+        }
+    },
+
+    "divine tiger": {
+        "description": {
+            "name": "divine tiger",
+            "symbol": "DG",
+            "kanji": "神虎",
+            "romaji": "shinko"
+        },
+        "rules": {
+            "movement": "bR2fsRflB",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "turtle snake": {
+        "description": {
+            "name": "turtle snake",
+            "symbol": "TS",
+            "kanji": "玄武",
+            "romaji": "genbu"
+        },
+        "rules": {
+            "movement": "KfrBblB",
+            "promotion": "divine turtle",
+            "rank": 5
+        }
+    },
+
+    "divine turtle": {
+        "description": {
+            "name": "divine turtle",
+            "symbol": "DT",
+            "kanji": "神亀",
+            "romaji": "shinki"
+        },
+        "rules": {
+            "movement": "KfrBbB",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "incense chariot": {
+        "description": {
+            "name": "incense chariot",
+            "symbol": "L",
+            "kanji": "香車",
+            "romaji": "kyōsha"
+        },
+        "rules": {
+            "movement": "fR",
+            "promotion": "white foal",
+            "rank": 5
+        }
+    },
+
+    "reverse chariot": {
+        "description": {
+            "name": "reverse chariot",
+            "symbol": "RV",
+            "kanji": "反車",
+            "romaji": "hensha"
+        },
+        "rules": {
+            "movement": "vR",
+            "promotion": "whale",
+            "rank": 5
+        }
+    },
+
+    "fragrant elephant": {
+        "description": {
+            "name": "fragrant elephant",
+            "symbol": "FG",
+            "kanji": "香象",
+            "romaji": "kōzō"
+        },
+        "rules": {
+            "movement": "Q2",
+            "promotion": "elephant king",
+            "rank": 5
+        }
+    },
+
+    "white elephant": {
+        "description": {
+            "name": "white elephant",
+            "symbol": "WE",
+            "kanji": "白象",
+            "romaji": "hakuzō"
+        },
+        "rules": {
+            "movement": "Q2",
+            "promotion": "elephant king",
+            "rank": 5
+        }
+    },
+
+    "elephant king": {
+        "description": {
+            "name": "elephant king",
+            "symbol": "EK",
+            "kanji": "象王",
+            "romaji": "zōō"
+        },
+        "rules": {
+            "movement": "R2B",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "turtle dove": {
+        "description": {
+            "name": "turtle dove",
+            "symbol": "TD",
+            "kanji": "山鳩",
+            "romaji": "sankyū"
+        },
+        "rules": {
+            "movement": "fB5bsW",
+            "promotion": "great dove",
+            "rank": 5
+        }
     }
 }
