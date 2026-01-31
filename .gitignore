@@ -1,0 +1,7 @@
+Projet_Hex_A2025/
+**/*.pdf
+
+**/.venv/
+__pycache__/
+
+**/.env
