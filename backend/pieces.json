@@ -1,0 +1,163 @@
+{
+    "king": {
+        "description": {
+            "sente": {
+                "name": "king",
+                "symbol": "K",
+                "kanji": "王将",
+                "romaji_sente": "ōshō"
+            },
+            "gote": {
+                "name": "king",
+                "symbol": "K'",
+                "kanji": "玉将",
+                "romaji_gote": "gyokushō"
+            }
+        },
+        "rules": {
+            "movement": "Q2",
+            "promotion": null,
+            "rank": 1
+        }
+    },
+
+    "crown prince": {
+        "description": {
+            "name": "crown prince",
+            "symbol": "CP",
+            "kanji": "太子",
+            "romaji": "taishi"
+        },
+        "rules": {
+            "movement": "K",
+            "promotion": "king",
+            "rank": 1 
+        }
+    },
+
+    "great general": {
+        "description": {
+            "name": "great general",
+            "symbol": "GG",
+            "kanji": "大将",
+            "romaji": "taishō"
+        },
+        "rules": {
+            "movement": "cdQ0",
+            "promotion": null,
+            "rank": 2
+        }
+    },
+    
+    "gold general": {
+        "description": {
+            "name": "gold general",
+            "symbol": "G",
+            "kanji": "金将",
+            "romaji": "kinshō"
+        },
+        "rules": {
+            "movement": "WfF",
+            "promotion": "flying chariot",
+            "rank": 5
+        }
+    },
+
+    "right general": {
+        "description": {
+            "name": "right general",
+            "symbol": "RG",
+            "kanji": "右将",
+            "romaji": "ushō"
+        },
+        "rules": {
+            "movement": "lFvWlW",
+            "promotion": "right army",
+            "rank": 5
+        }
+    },
+
+    "right army": {
+        "description": {
+            "name": "right army",
+            "symbol": "RA",
+            "kanji": "右軍",
+            "romaji": "ugun"
+        },
+        "rules": {
+            "movement": "KrQ",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "left general": {
+        "description": {
+            "name": "left general",
+            "symbol": "LG",
+            "kanji": "左将",
+            "romaji": "sashō"
+        },
+        "rules": {
+            "movement": "rFvWrW",
+            "promotion": "left army",
+            "rank": 5
+        }
+    },
+
+    "left army": {
+        "description": {
+            "name": "left army",
+            "symbol": "LA",
+            "kanji": "左軍",
+            "romaji": "sagun"
+        },
+        "rules": {
+            "movement": "KlQ",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "rear standard": {
+        "description": {
+            "name": "rear standard",
+            "symbol": "RS",
+            "kanji": "後旗",
+            "romaji": "kōki"
+        },
+        "rules": {
+            "movement": "B2R",
+            "promotion": "center standard",
+            "rank": 5
+        }
+    },
+
+    "free king": {
+        "description": {
+            "name": "free king",
+            "symbol": "Q",
+            "kanji": "奔王",
+            "romaji": "honnō"
+        },
+        "rules": {
+            "movement": "Q",
+            "promotion": "great general",
+            "rank": 5
+        }
+    },
+
+    "free dream-eater": {
+        "description": {
+            "name": "free dream-eater",
+            "symbol": "FT",
+            "kanji": "奔獏",
+            "romaji": "honbaku"
+        },
+        "rules": {
+            "movement": "vQsR5",
+            "promotion": "free king",
+            "rank": 5
+        }
+    }
+}
