@@ -495,5 +495,328 @@
             "promotion": "great dove",
             "rank": 5
         }
+    },
+
+    "flying swallow": {
+        "description": {
+            "name": "flying swallow",
+            "symbol": "FS",
+            "kanji": "飛燕",
+            "romaji": "hien"
+        },
+        "rules": {
+            "movement": "bWfB",
+            "promotion": "flying chariot",
+            "rank": 5
+        }
+    },
+
+    "fowl officer": {
+        "description": {
+            "name": "fowl officer",
+            "symbol": "CO",
+            "kanji": "禽吏",
+            "romaji": "kinri"
+        },
+        "rules": {
+            "movement": "B3fsR3",
+            "promotion": "fowl",
+            "rank": 5
+        }
+    },
+
+    "fowl": {
+        "description": {
+            "name": "fowl",
+            "symbol": "CW",
+            "kanji": "禽鳥",
+            "romaji": "kinchō"
+        },
+        "rules": {
+            "movement": "BbR2sR3fR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "rain dragon": {
+        "description": {
+            "name": "rain dragon",
+            "symbol": "RA",
+            "kanji": "雨龍",
+            "romaji": "uryū"
+        },
+        "rules": {
+            "movement": "WbsRFbB",
+            "promotion": "great dragon",
+            "rank": 5
+        }
+    },
+
+    "forest demon": {
+        "description": {
+            "name": "forest demon",
+            "symbol": "FO",
+            "kanji": "森鬼",
+            "romaji": "shinki"
+        },
+        "rules": {
+            "movement": "fsR3fBbR",
+            "promotion": "thunder runner",
+            "rank": 5
+        }
+    },
+
+    "thunder runner": {
+        "description": {
+            "name": "thunder runner",
+            "symbol": "TR",
+            "kanji": "雷走",
+            "romaji": "raisō"
+        },
+        "rules": {
+            "movement": "bsR4fQ",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "mountain stag": {
+        "description": {
+            "name": "mountain stag",
+            "symbol": "MS",
+            "kanji": "山鹿",
+            "romaji": "sanroku"
+        },
+        "rules": {
+            "movement": "fB3fWsR2bR4",
+            "promotion": "great stag",
+            "rank": 5
+        }
+    },
+
+    "running pup": {
+        "description": {
+            "name": "running pup",
+            "symbol": "RP",
+            "kanji": "走狗",
+            "romaji": "sōku"
+        },
+        "rules": {
+            "movement": "WvR",
+            "promotion": "free leopard",
+            "rank": 5
+        }
+    },
+
+    "free leopard": {
+        "description": {
+            "name": "free leopard",
+            "symbol": "FA",
+            "kanji": "奔豹",
+            "romaji": "honpyō"
+        },
+        "rules": {
+            "movement": "BvR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "running serpent": {
+        "description": {
+            "name": "running serpent",
+            "symbol": "RU",
+            "kanji": "走蛇",
+            "romaji": "sōja"
+        },
+        "rules": {
+            "movement": "WvR",
+            "promotion": "free serpent",
+            "rank": 5
+        }
+    },
+
+    "free serpent": {
+        "description": {
+            "name": "free serpent",
+            "symbol": "FN",
+            "kanji": "奔蛇",
+            "romaji": "honja"
+        },
+        "rules": {
+            "movement": "vRbB",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "slide serpent": {
+        "description": {
+            "name": "slide serpent",
+            "symbol": "SS",
+            "kanji": "横蛇",
+            "romaji": "ōja"
+        },
+        "rules": {
+            "movement": "bWfR3sR",
+            "promotion": "great shark",
+            "rank": 5
+        }
+    },
+
+    "great shark": {
+        "description": {
+            "name": "great shark",
+            "symbol": "GH",
+            "kanji": "大鱗",
+            "romaji": "dairin"
+        },
+        "rules": {
+            "movement": "RbB2fB5",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "great dove": {
+        "description": {
+            "name": "great dove",
+            "symbol": "GR",
+            "kanji": "大鳩",
+            "romaji": "daikyū"
+        },
+        "rules": {
+            "movement": "R3B",
+            "promotion": "wooden dove",
+            "rank": 5
+        }
+    },
+
+    "running tiger": {
+        "description": {
+            "name": "running tiger",
+            "symbol": "RT",
+            "kanji": "走虎",
+            "romaji": "sōko"
+        },
+        "rules": {
+            "movement": "vRsR2",
+            "promotion": "free tiger",
+            "rank": 5
+        }
+    },
+
+    "free tiger": {
+        "description": {
+            "name": "free tiger",
+            "symbol": "FX",
+            "kanji": "奔虎",
+            "romaji": "honko"
+        },
+        "rules": {
+            "movement": "BbsR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "running bear": {
+        "description": {
+            "name": "running bear",
+            "symbol": "BA",
+            "kanji": "走熊",
+            "romaji": "sōyū"
+        },
+        "rules": {
+            "movement": "vRsR2",
+            "promotion": "free bear",
+            "rank": 5
+        }
+    },
+
+    "free bear": {
+        "description": {
+            "name": "free bear",
+            "symbol": "FB",
+            "kanji": "奔熊",
+            "romaji": "hon'yū"
+        },
+        "rules": {
+            "movement": "BvR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "nature spirit": {
+        "description": {
+            "name": "nature spirit",
+            "symbol": "YA",
+            "kanji": "夜叉",
+            "romaji": "yasha"
+        },
+        "rules": {
+            "movement": "fFbWsR3",
+            "promotion": "heavenly tetrarch",
+            "rank": 5
+        }
+    },
+
+    "buddhist devil": {
+        "description": {
+            "name": "buddhist devil",
+            "symbol": "BD",
+            "kanji": "羅刹",
+            "romaji": "rasetsu"
+        },
+        "rules": {
+            "movement": "fB3bsW",
+            "promotion": "heavenly tetrarch",
+            "rank": 5
+        }
+    },
+
+    "guardian of the gods": {
+        "description": {
+            "name": "guardian of the gods",
+            "symbol": "GU",
+            "kanji": "金剛",
+            "romaji": "kongō"
+        },
+        "rules": {
+            "movement": "R3",
+            "promotion": "heavenly tetrarch",
+            "rank": 5
+        }
+    },
+
+    "sumo wrestler": {
+        "description": {
+            "name": "sumo wrestler",
+            "symbol": "WR",
+            "kanji": "力士",
+            "romaji": "rikishi"
+        },
+        "rules": {
+            "movement": "B3",
+            "promotion": "heavenly tetrarch",
+            "rank": 5
+        }
+    },
+
+    "heavenly tetrarch": {
+        "description": {
+            "name": "heavenly tetrarch",
+            "symbol": "HT",
+            "kanji": "天王",
+            "romaji": "tennō"
+        },
+        "rules": {
+            "movement": "Q4",
+            "promotion": null,
+            "rank": 5
+        }
     }
+
 }
