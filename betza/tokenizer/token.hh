@@ -20,10 +20,10 @@ enum class TokenType {
 struct Token {
     TokenType type;
     std::string_view text;
-    int position;           // for error reporting
+    int position; // for error reporting
 
     char ch() const;
-    int number() const;     // throws std::logic_error if not a number
+    int number() const; // throws std::logic_error if not a number
 
     bool is(const TokenType t) const;
     bool is(const TokenType t, const char c) const;
