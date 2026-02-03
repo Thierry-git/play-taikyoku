@@ -1,0 +1,18 @@
+BasedOnStyle: WebKit
+
+BreakBeforeBraces: Attach
+
+ConstructorInitializerIndentWidth: 0
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+
+AllowAllConstructorInitializersOnNextLine: true
+
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLoopsOnASingleLine: true
+
+BinPackParameters: false
+BinPackArguments: false
+
+ColumnLimit: 90
