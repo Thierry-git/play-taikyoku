@@ -1,11 +1,4 @@
-load("@rules_cc//cc:defs.bzl", "cc_test")
-
-cc_test(
+alias(
     name = "token_test",
-    size = "small",
-    srcs = ["token_test.cc"],
-    deps = [
-        "@googletest//:gtest",
-        "@googletest//:gtest_main",
-    ],
+    actual = "//betza/tokenizer:token_test",
 )

@@ -1,4 +1,4 @@
-#include "token.hpp"
+#include "token.hh"
 
 #include <stdexcept>
 
