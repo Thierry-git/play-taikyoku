@@ -1,0 +1,7 @@
+{
+  "recommendations": [
+    "bazelbuild.vscode-bazel",
+    "ms-vscode.cpptools",
+    "Gruntfuggly.todo-tree"
+  ],
+}
