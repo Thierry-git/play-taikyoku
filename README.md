@@ -2,11 +2,15 @@
 
 ## PREREQUISITES
 
-1. Bazelisk.
+1. GCC 15.2
+
+The C++ portion of this repository is compiled using GCC 15.2.
+
+2. Bazelisk.
 
 Bazel is the build system which is used by this project. To install it, use bazelisk, which is a wrapper around bazel that will install bazel for you (with the right version, as per the .bazelversion file). Follow the directions [here](https://github.com/bazelbuild/bazelisk)
 
-## USING BAZEL IN THE TERMINAL
+## BUILDING VIA THE TERMINAL
 
 This repo pins the Bazel version in `.bazelversion`. Bazelisk will automatically download and run that version.
 
@@ -32,7 +36,7 @@ bazelisk query //:*
 
 If you prefer typing `bazel` instead of `bazelisk`, you can create a shell alias / wrapper so that `bazel` invokes `bazelisk`.
 
-## USING BAZEL VIA THE VS CODE EXTENSION
+## BUILDING VIA THE VSCODE EXTENSION
 
 1. Install the VS Code extension named "Bazel".
 2. Configure the extension to use Bazelisk as the Bazel executable.
