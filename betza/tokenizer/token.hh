@@ -18,8 +18,8 @@ enum class TokenType {
 };
 
 struct Token {
-    TokenType type;
     std::string_view text;
+    TokenType type;
     int position; // for error reporting
 
     char ch() const;
