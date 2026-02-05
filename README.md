@@ -56,3 +56,31 @@ Then you can use the Command Palette:
 - **Query**: discover targets (often via a `bazel query`-style command).
 
 If the extension can’t find `bazelisk`, make sure it’s on your `PATH`, or set `bazel.executable` to the full path to `bazelisk`.
+
+
+## CODE COVERAGE
+
+### Prerequisites
+
+- `lcov` (provides `genhtml`). Install via: `sudo apt install lcov`
+
+### Running coverage
+
+```sh
+# Run all tests with coverage and generate an HTML report
+bazelisk run //tools/coverage:report
+```
+
+This will:
+1. Run `bazel coverage //...` (collecting lcov data for all test targets)
+2. Generate an HTML report in `coverage_html/`
+
+Open `coverage_html/index.html` in a browser to view the results.
+
+To collect coverage data without generating HTML:
+
+```sh
+bazelisk coverage //...
+```
+
+The raw lcov report is located at `$(bazel info output_path)/_coverage/_coverage_report.dat`.

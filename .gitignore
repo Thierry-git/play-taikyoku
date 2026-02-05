@@ -1,5 +1,6 @@
 Projet_Hex_A2025/
 **/*.pdf
+work_context.md
 
 **/.venv/
 __pycache__/
@@ -8,3 +9,4 @@ __pycache__/
 
 bazel-*
 MODULE.bazel.lock
+coverage_html/
