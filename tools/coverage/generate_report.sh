@@ -17,7 +17,12 @@ if ! command -v genhtml &>/dev/null; then
 fi
 
 echo "Running bazel coverage //..."
-bazel coverage //...
+COVERAGE_EXIT=0
+bazel coverage //... || COVERAGE_EXIT=$?
+
+if [[ ${COVERAGE_EXIT} -ne 0 ]]; then
+    echo "WARNING: bazel coverage exited with code ${COVERAGE_EXIT} (some tests may have failed)." >&2
+fi
 
 if [[ ! -f "${COVERAGE_DAT}" ]]; then
     echo "ERROR: Coverage report not found at ${COVERAGE_DAT}" >&2

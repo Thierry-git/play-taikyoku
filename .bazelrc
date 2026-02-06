@@ -1,3 +1,6 @@
+# Test configuration
+test --test_output=errors
+
 # Coverage configuration
 coverage --combined_report=lcov
 coverage --instrumentation_filter="^//"
