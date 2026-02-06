@@ -1,5 +1,6 @@
 #pragma once
 
+#include <optional>
 #include <string_view>
 
 namespace betza {
@@ -20,10 +21,10 @@ enum class TokenType {
 struct Token {
     std::string_view text;
     TokenType type;
-    int position; // for error reporting
+    unsigned position; // for error reporting
 
     char ch() const;
-    int number() const; // throws std::logic_error if not a number
+    std::optional<unsigned> number() const;
 
     bool is(const TokenType t) const;
     bool is(const TokenType t, const char c) const;

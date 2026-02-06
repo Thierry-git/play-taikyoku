@@ -12,27 +12,46 @@ TEST(Token, chReportsFirstCharIfData) {
     EXPECT_EQ(t.ch(), 'A');
 }
 
-TEST(Token, numberThrowsIfNotNumberType) {
-    const betza::Token t = { "12", betza::TokenType::END, 2 };
-    EXPECT_THROW(t.number(), std::logic_error);
+TEST(Token, nonNumberTypeReportsNullopt) {
+    const betza::Token t1 = { "12", betza::TokenType::END, 2 };
+    const betza::Token t2 = { "af", betza::TokenType::RPAREN, 3 };
+    EXPECT_FALSE(t1.number().has_value());
+    EXPECT_FALSE(t2.number().has_value());
+}
+
+TEST(Token, emptyNumberTypeReportsNullopt) {
+    const betza::Token t = { "", betza::TokenType::NUMBER, 4 };
+    EXPECT_FALSE(t.number().has_value());
+}
+
+TEST(Token, numberTypeWithNonNumericalValueReportsNullopt) {
+    const betza::Token t = { "af", betza::TokenType::NUMBER, 5 };
+    EXPECT_FALSE(t.number().has_value());
+}
+
+TEST(Token, numberTypeWithPartiallyNumericalValueReportsNullopt) {
+    const betza::Token t = { "12abc", betza::TokenType::NUMBER, 5 };
+    EXPECT_FALSE(t.number().has_value());
 }
 
 TEST(Token, numberCanReportSingleDigitAsInteger) {
-    constexpr int EXPECTED = 4;
-    const betza::Token t = { "4", betza::TokenType::NUMBER, 3 };
-    EXPECT_EQ(t.number(), EXPECTED);
+    constexpr unsigned EXPECTED = 4;
+    const betza::Token t = { "4", betza::TokenType::NUMBER, 6 };
+    ASSERT_TRUE(t.number().has_value());
+    EXPECT_EQ(t.number().value(), EXPECTED);
 }
 
 TEST(Token, numberCanReportMultiDigitAsInteger) {
-    constexpr int EXPECTED = 179;
-    const betza::Token t = { "179", betza::TokenType::NUMBER, 4 };
-    EXPECT_EQ(t.number(), EXPECTED);
+    constexpr unsigned EXPECTED = 179;
+    const betza::Token t = { "179", betza::TokenType::NUMBER, 7 };
+    ASSERT_TRUE(t.number().has_value());
+    EXPECT_EQ(t.number().value(), EXPECTED);
 }
 
 class TokenIsTest : public testing::Test {
 protected:
     TokenIsTest() :
-    t1_({ "", betza::TokenType::LPAREN, 5 }), t2_({ "t", betza::TokenType::LOWER, 6 }) { }
+    t1_({ "", betza::TokenType::LPAREN, 8 }), t2_({ "t", betza::TokenType::LOWER, 9 }) { }
     ~TokenIsTest() override = default;
 
     const betza::Token t1_;
