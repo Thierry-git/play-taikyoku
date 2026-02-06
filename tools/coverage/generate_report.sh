@@ -27,8 +27,8 @@ fi
 echo "Generating HTML report..."
 genhtml \
     --branch-coverage \
-    --rc exclude_throw_branches=1 \
-    --rc exclude_unreachable_branches=1 \
+    --filter branch \
+    --rc no_exception_branch=1 \
     --output "${OUTPUT_DIR}" \
     "${COVERAGE_DAT}"
 

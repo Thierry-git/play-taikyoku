@@ -62,7 +62,7 @@ If the extension can’t find `bazelisk`, make sure it’s on your `PATH`, or se
 
 ### Prerequisites
 
-- `lcov` (provides `genhtml`). Install via: `sudo apt install lcov`
+- `lcov` (provides `genhtml`). Install via: `sudo dnf install lcov`
 
 ### Running coverage
 
@@ -84,3 +84,15 @@ bazelisk coverage //...
 ```
 
 The raw lcov report is located at `$(bazel info output_path)/_coverage/_coverage_report.dat`.
+
+### Known limitation: gcc and branch coverage
+
+When using gcc, branch coverage reports include compiler-generated branches (e.g., exception
+handler paths on `throw` statements) that are not meaningful to test. This inflates the total
+branch count and makes 100% branch coverage unachievable in practice.
+
+To keep branch coverage reports clean, **prefer alternatives to `throw`** (e.g., return error codes, `std::optional`, `std::expected`) where practical.
+
+If the project switches to clang for coverage in the future, the `genhtml` flags already in
+place (`--filter branch`, `--rc no_exception_branch=1`) will correctly exclude these
+compiler-generated branches.
