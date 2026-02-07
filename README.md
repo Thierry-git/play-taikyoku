@@ -73,9 +73,9 @@ bazelisk run //tools/coverage:report
 
 This will:
 1. Run `bazel coverage //...` (collecting lcov data for all test targets)
-2. Generate an HTML report in `coverage_html/`
+2. Generate an HTML report in `build/coverage_html/`
 
-Open `coverage_html/index.html` in a browser to view the results.
+Open `build/coverage_html/index.html` in a browser to view the results.
 
 To collect coverage data without generating HTML:
 

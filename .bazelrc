@@ -1,3 +1,6 @@
+# Build output
+build --symlink_prefix=build/bazel-
+
 # Test configuration
 test --test_output=errors
 

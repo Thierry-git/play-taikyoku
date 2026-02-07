@@ -7,6 +7,5 @@ __pycache__/
 
 **/.env
 
-bazel-*
+build/
 MODULE.bazel.lock
-coverage_html/

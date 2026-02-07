@@ -8,7 +8,7 @@ fi
 
 cd "${BUILD_WORKSPACE_DIRECTORY}"
 
-OUTPUT_DIR="${BUILD_WORKSPACE_DIRECTORY}/coverage_html"
+OUTPUT_DIR="${BUILD_WORKSPACE_DIRECTORY}/build/coverage_html"
 COVERAGE_DAT="$(bazel info output_path)/_coverage/_coverage_report.dat"
 
 if ! command -v genhtml &>/dev/null; then
