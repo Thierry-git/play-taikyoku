@@ -817,6 +817,551 @@
             "promotion": null,
             "rank": 5
         }
-    }
+    },
 
+    "silver general": {
+        "description": {
+            "name": "silver general",
+            "symbol": "S",
+            "kanji": "銀将",
+            "romaji": "ginshō"
+        },
+        "rules": {
+            "movement": "FfW",
+            "promotion": "vertical mover",
+            "rank": 5
+        }
+    },
+
+    "drunken elephant": {
+        "description": {
+            "name": "drunken elephant",
+            "symbol": "DE",
+            "kanji": "酔象",
+            "romaji": "suizō"
+        },
+        "rules": {
+            "movement": "sKfW",
+            "promotion": "crown prince",
+            "rank": 5
+        }
+    },
+
+    "neighbouring king": {
+        "description": {
+            "name": "neighbouring king",
+            "symbol": "NK",
+            "kanji": "近王",
+            "romaji": "kinnō"
+        },
+        "rules": {
+            "movement": "sKfW",
+            "promotion": "front standard",
+            "rank": 5
+        }
+    },
+
+    "gold chariot": {
+        "description": {
+            "name": "gold chariot",
+            "symbol": "GC",
+            "kanji": "金車",
+            "romaji": "kinsha"
+        },
+        "rules": {
+            "movement": "FsW2vR",
+            "promotion": "playful parrot",
+            "rank": 5
+        }
+    },
+
+    "playful parrot": {
+        "description": {
+            "name": "playful parrot",
+            "symbol": "PP",
+            "kanji": "遊䳇",
+            "romaji": "yūmo"
+        },
+        "rules": {
+            "movement": "bF2fF3sW5vR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "side dragon": {
+        "description": {
+            "name": "side dragon",
+            "symbol": "SI",
+            "kanji": "横龍",
+            "romaji": "ōryū"
+        },
+        "rules": {
+            "movement": "fsR",
+            "promotion": "running dragon",
+            "rank": 5
+        }
+    },
+
+    "running dragon": {
+        "description": {
+            "name": "running dragon",
+            "symbol": "RX",
+            "kanji": "走龍",
+            "romaji": "sōryū"
+        },
+        "rules": {
+            "movement": "sQfRbW5",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "running stag": {
+        "description": {
+            "name": "running stag",
+            "symbol": "RN",
+            "kanji": "走鹿",
+            "romaji": "sōroku"
+        },
+        "rules": {
+            "movement": "bW2sRfB",
+            "promotion": "free stag",
+            "rank": 5
+        }
+    },
+
+    "free stag": {
+        "description": {
+            "name": "free stag",
+            "symbol": "FX",
+            "kanji": "奔鹿",
+            "romaji": "honroku"
+        },
+        "rules": {
+            "movement": "Q",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "running wolf": {
+        "description": {
+            "name": "running wolf",
+            "symbol": "RW",
+            "kanji": "走狼",
+            "romaji": "sōrō"
+        },
+        "rules": {
+            "movement": "fWfBsR",
+            "promotion": "free wolf",
+            "rank": 5
+        }
+    },
+
+    "free wolf": {
+        "description": {
+            "name": "free wolf",
+            "symbol": "FW",
+            "kanji": "奔狼",
+            "romaji": "honrō"
+        },
+        "rules": {
+            "movement": "fQsR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "angle general": {
+        "description": {
+            "name": "angle general",
+            "symbol": "AG",
+            "kanji": "角将",
+            "romaji": " kakushō"
+        },
+        "rules": {
+            "movement": "(cyB)0-[B]",
+            "promotion": "rain demon",
+            "rank": 4
+        }
+    },
+
+    "rain demon": {
+        "description": {
+            "name": "rain demon",
+            "symbol": "RD",
+            "kanji": "霖鬼",
+            "romaji": "rinki"
+        },
+        "rules": {
+            "movement": "fW3sW2bF2bRfB(fA-[B])",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "flying general": {
+        "description": {
+            "name": "flying general",
+            "symbol": "RO",
+            "kanji": "飛将",
+            "romaji": "hishō"
+        },
+        "rules": {
+            "movement": "(cyR)0-[R]",
+            "promotion": "flying crocodile",
+            "rank": 4
+        }
+    },
+
+    "flying crocodile": {
+        "description": {
+            "name": "flying crocodile",
+            "symbol": "FY",
+            "kanji": "飛鰐",
+            "romaji": "higaku"
+        },
+        "rules": {
+            "movement": "bF2fF3((cyR)0-[R])",
+            "promotion": null,
+            "rank": 4
+        }
+    },
+
+    "right tiger": {
+        "description": {
+            "name": "right tiger",
+            "symbol": "TT",
+            "kanji": "右虎",
+            "romaji": "uko"
+        },
+        "rules": {
+            "movement": "lQrF",
+            "promotion": "white tiger",
+            "rank": 5
+        }
+    },
+
+    "left tiger": {
+        "description": {
+            "name": "left tiger",
+            "symbol": "LT",
+            "kanji": "左虎",
+            "romaji": "sako"
+        },
+        "rules": {
+            "movement": "rQlF",
+            "promotion": "turtle snake",
+            "rank": 5
+        }
+    },
+
+    "right dragon": {
+        "description": {
+            "name": "right dragon",
+            "symbol": "RI",
+            "kanji": "右龍",
+            "romaji": "uryū"
+        },
+        "rules": {
+            "movement": "lQrW2",
+            "promotion": "blue dragon",
+            "rank": 5
+        }
+    },
+
+    "left dragon": {
+        "description": {
+            "name": "left dragon",
+            "symbol": "LE",
+            "kanji": "左龍",
+            "romaji": "saryū"
+        },
+        "rules": {
+            "movement": "rQlW2",
+            "promotion": "vermillion sparrow",
+            "rank": 5
+        }
+    },
+
+    "beast officer": {
+        "description": {
+            "name": "beast officer",
+            "symbol": "BO",
+            "kanji": "獣吏",
+            "romaji": "jūri"
+        },
+        "rules": {
+            "movement": "F3sW2fW3",
+            "promotion": "beast bird",
+            "rank": 5
+        }
+    },
+
+    "beast bird": {
+        "description": {
+            "name": "beast bird",
+            "symbol": "BR",
+            "kanji": "獣鳥",
+            "romaji": "jūchō"
+        },
+        "rules": {
+            "movement": "BbW2sW3fR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "wind dragon": {
+        "description": {
+            "name": "wind dragon",
+            "symbol": "WD",
+            "kanji": "風龍",
+            "romaji": "fūryū"
+        },
+        "rules": {
+            "movement": "fB(br)BsR(bl)F",
+            "promotion": "free dragon",
+            "rank": 5
+        }
+    },
+
+    "free dragon": {
+        "description": {
+            "name": "free dragon",
+            "symbol": "FZ",
+            "kanji": "奔龍",
+            "romaji": "honryū"
+        },
+        "rules": {
+            "movement": "sQbR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "free pup": {
+        "description": {
+            "name": "free pup",
+            "symbol": "FP",
+            "kanji": "奔狗",
+            "romaji": "honku"
+        },
+        "rules": {
+            "movement": "bFsW2vRfB",
+            "promotion": "free dog",
+            "rank": 5
+        }
+    },
+
+    "free dog": {
+        "description": {
+            "name": "free dog",
+            "symbol": "FC",
+            "kanji": "奔犬",
+            "romaji": "honken"
+        },
+        "rules": {
+            "movement": "bF2sW2vRfB",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "rushing bird": {
+        "description": {
+            "name": "rushing bird",
+            "symbol": "RB",
+            "kanji": "行鳥",
+            "romaji": "gyōchō"
+        },
+        "rules": {
+            "movement": "sKfW2",
+            "promotion": "free demon",
+            "rank": 5
+        }
+    },
+
+    "old kite": {
+        "description": {
+            "name": "old kite",
+            "symbol": "OK",
+            "kanji": "古鵄",
+            "romaji": "kotetsu"
+        },
+        "rules": {
+            "movement": "F2sW",
+            "promotion": "tengu",
+            "rank": 5
+        }
+    },
+
+    "peacock": {
+        "description": {
+            "name": "peacock",
+            "symbol": "PC",
+            "kanji": "孔雀",
+            "romaji": "kujaku"
+        },
+        "rules": {
+            "movement": "bF2(fB-[sB])",
+            "promotion": "tengu",
+            "rank": 5
+        }
+    },
+
+    "water dragon": {
+        "description": {
+            "name": "water dragon",
+            "symbol": "WA",
+            "kanji": "水龍",
+            "romaji": "suiryū"
+        },
+        "rules": {
+            "movement": "RfF2bF4",
+            "promotion": "phoenix master",
+            "rank": 5
+        }
+    },
+
+    "fire dragon": {
+        "description": {
+            "name": "fire dragon",
+            "symbol": "FI",
+            "kanji": "火龍",
+            "romaji": "karyū"
+        },
+        "rules": {
+            "movement": "RfF4bF2",
+            "promotion": "kirin master",
+            "rank": 5
+        }
+    },
+
+    "copper general": {
+        "description": {
+            "name": "copper general",
+            "symbol": "C",
+            "kanji": "銅将",
+            "romaji": "dōshō"
+        },
+        "rules": {
+            "movement": "vWfF",
+            "promotion": "side mover",
+            "rank": 5
+        }
+    },
+
+    "phoenix master": {
+        "description": {
+            "name": "phoenix master",
+            "symbol": "PM",
+            "kanji": "鳳師",
+            "romaji": "hōshi"
+        },
+        "rules": {
+            "movement": "vQfGsW3",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "kirin master": {
+        "description": {
+            "name": "kirin master",
+            "symbol": "KM",
+            "kanji": "麟師",
+            "romaji": "rinshi"
+        },
+        "rules": {
+            "movement": "vQvHsW3",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "silver chariot": {
+        "description": {
+            "name": "silver chariot",
+            "symbol": "SV",
+            "kanji": "銀車",
+            "romaji": "ginsha"
+        },
+        "rules": {
+            "movement": "RbFfF2",
+            "promotion": "goose wing",
+            "rank": 5
+        }
+    },
+
+    "goose wing": {
+        "description": {
+            "name": "goose wing",
+            "symbol": "GW",
+            "kanji": "鴻翼",
+            "romaji": "kōyoko"
+        },
+        "rules": {
+            "movement": "FsW3vR",
+            "promotion": null,
+            "rank": 5
+        }
+    },
+
+    "vertical bear": {
+        "description": {
+            "name": "vertical bear",
+            "symbol": "VE",
+            "kanji": "竪熊",
+            "romaji": "shuyū"
+        },
+        "rules": {
+            "movement": "bWsW2fR",
+            "promotion": "free bear",
+            "rank": 5
+        }
+    },
+
+    "cassia horse": {
+        "description": {
+            "name": "cassia horse",
+            "symbol": "N",
+            "kanji": "桂馬",
+            "romaji": "keima"
+        },
+        "rules": {
+            "movement": "(ff)N",
+            "promotion": "side soldier",
+            "rank": 5
+        }
+    },
+
+    "pig general": {
+        "description": {
+            "name": "pig general",
+            "symbol": "PI",
+            "kanji": "豚将",
+            "romaji": "tonshō"
+        },
+        "rules": {
+            "movement": "bW2fB4",
+            "promotion": "free pig",
+            "rank": 5
+        }
+    },
+
+    "free pig": {
+        "description": {
+            "name": "free pig",
+            "symbol": "FP",
+            "kanji": "奔豚",
+            "romaji": "honton"
+        },
+        "rules": {
+            "movement": "bFsW2vRfB",
+            "promotion": null,
+            "rank": 5
+        }
+    }
 }
