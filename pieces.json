@@ -43,7 +43,7 @@
             "romaji": "taishō"
         },
         "rules": {
-            "movement": "cdQ0",
+            "movement": "(cyQ)0-[Q]",
             "promotion": null,
             "rank": 2
         }
@@ -127,7 +127,7 @@
             "romaji": "kōki"
         },
         "rules": {
-            "movement": "B2R",
+            "movement": "F2R",
             "promotion": "center standard",
             "rank": 5
         }
@@ -155,7 +155,7 @@
             "romaji": "honbaku"
         },
         "rules": {
-            "movement": "vQsR5",
+            "movement": "vQsW5",
             "promotion": "free king",
             "rank": 5
         }
@@ -169,7 +169,7 @@
             "romaji": "kyūhan"
         },
         "rules": {
-            "movement": "R2BG(G-B2)",
+            "movement": "W2B(G-[F2])",
             "promotion": null,
             "rank": 5
         }
@@ -183,7 +183,7 @@
             "romaji": "kyūban"
         },
         "rules": {
-            "movement": "R2B",
+            "movement": "W2B",
             "promotion": null,
             "rank": 5
         }
@@ -197,7 +197,7 @@
             "romaji": "chiryū"
         },
         "rules": {
-            "movement": "fFbWfR2bB",
+            "movement": "fFbWfW2bB",
             "promotion": "rain dragon",
             "rank": 5
         }
@@ -211,7 +211,7 @@
             "romaji": "honki"
         },
         "rules": {
-            "movement": "BvR5sR",
+            "movement": "sQvW5",
             "promotion": "free king",
             "rank": 5
         }
@@ -239,7 +239,7 @@
             "romaji": "jūsō"
         },
         "rules": {
-            "movement": "B2fsR2",
+            "movement": "sQ2fW2",
             "promotion": "beast officer",
             "rank": 5
         }
@@ -253,7 +253,7 @@
             "romaji": "tengu"
         },
         "rules": {
-            "movement": "B(B-sB)",
+            "movement": "B-[sB]",
             "promotion": null,
             "rank": 5
         }
@@ -267,7 +267,7 @@
             "romaji": "usanshū"
         },
         "rules": {
-            "movement": "RrAblB2fBbrB",
+            "movement": "RrA(bl)F2(fl)BrB",
             "promotion": "flying eagle",
             "rank": 5
         }
@@ -281,7 +281,7 @@
             "romaji": "sasanshū"
         },
         "rules": {
-            "movement": "RlAbrB2fBblB",
+            "movement": "RlA(br)F2(fr)BlB",
             "promotion": "flying eagle",
             "rank": 5
         }
@@ -295,7 +295,7 @@
             "romaji": "kaki"
         },
         "rules": {
-            "movement": "vR2sQ",
+            "movement": "vW2sQ",
             "promotion": "free fire",
             "rank": 5
         }
@@ -309,7 +309,7 @@
             "romaji": "honka"
         },
         "rules": {
-            "movement": "vR5sQ",
+            "movement": "vW5sQ",
             "promotion": null,
             "rank": 5
         }
@@ -337,7 +337,7 @@
             "romaji": "daigei"
         },
         "rules": {
-            "movement": "vRB",
+            "movement": "vQ",
             "promotion": null,
             "rank": 5
         }
@@ -365,7 +365,7 @@
             "romaji": "byakko"
         },
         "rules": {
-            "movement": "vR2sRflB",
+            "movement": "vW2sR(fl)B",
             "promotion": "divine tiger",
             "rank": 5
         }
@@ -379,7 +379,7 @@
             "romaji": "shinko"
         },
         "rules": {
-            "movement": "bR2fsRflB",
+            "movement": "bW2fsR(fl)B",
             "promotion": null,
             "rank": 5
         }
@@ -393,7 +393,7 @@
             "romaji": "genbu"
         },
         "rules": {
-            "movement": "KfrBblB",
+            "movement": "(tl)K(br)K(bl)B(tr)B",
             "promotion": "divine turtle",
             "rank": 5
         }
@@ -407,7 +407,7 @@
             "romaji": "shinki"
         },
         "rules": {
-            "movement": "KfrBbB",
+            "movement": "W(tl)F(bl)B(tr)B(br)B",
             "promotion": null,
             "rank": 5
         }
@@ -477,7 +477,7 @@
             "romaji": "zōō"
         },
         "rules": {
-            "movement": "R2B",
+            "movement": "W2B",
             "promotion": null,
             "rank": 5
         }
@@ -491,7 +491,7 @@
             "romaji": "sankyū"
         },
         "rules": {
-            "movement": "fB5bsW",
+            "movement": "fF5bsW",
             "promotion": "great dove",
             "rank": 5
         }
@@ -519,7 +519,7 @@
             "romaji": "kinri"
         },
         "rules": {
-            "movement": "B3fsR3",
+            "movement": "F3fsW3",
             "promotion": "fowl",
             "rank": 5
         }
@@ -533,7 +533,7 @@
             "romaji": "kinchō"
         },
         "rules": {
-            "movement": "BbR2sR3fR",
+            "movement": "BbW2sW3fR",
             "promotion": null,
             "rank": 5
         }
@@ -547,7 +547,7 @@
             "romaji": "uryū"
         },
         "rules": {
-            "movement": "WbsRFbB",
+            "movement": "fKbQsR",
             "promotion": "great dragon",
             "rank": 5
         }
@@ -561,7 +561,7 @@
             "romaji": "shinki"
         },
         "rules": {
-            "movement": "fsR3fBbR",
+            "movement": "fsW3fBbR",
             "promotion": "thunder runner",
             "rank": 5
         }
@@ -575,7 +575,7 @@
             "romaji": "raisō"
         },
         "rules": {
-            "movement": "bsR4fQ",
+            "movement": "bsW4fQ",
             "promotion": null,
             "rank": 5
         }
@@ -589,7 +589,7 @@
             "romaji": "sanroku"
         },
         "rules": {
-            "movement": "fB3fWsR2bR4",
+            "movement": "fF3fWsW2bW4",
             "promotion": "great stag",
             "rank": 5
         }
@@ -603,7 +603,7 @@
             "romaji": "sōku"
         },
         "rules": {
-            "movement": "WvR",
+            "movement": "sWvR",
             "promotion": "free leopard",
             "rank": 5
         }
@@ -617,7 +617,7 @@
             "romaji": "honpyō"
         },
         "rules": {
-            "movement": "BvR",
+            "movement": "vQ",
             "promotion": null,
             "rank": 5
         }
@@ -631,7 +631,7 @@
             "romaji": "sōja"
         },
         "rules": {
-            "movement": "WvR",
+            "movement": "sWvR",
             "promotion": "free serpent",
             "rank": 5
         }
@@ -651,15 +651,15 @@
         }
     },
 
-    "slide serpent": {
+    "side serpent": {
         "description": {
-            "name": "slide serpent",
+            "name": "side serpent",
             "symbol": "SS",
             "kanji": "横蛇",
             "romaji": "ōja"
         },
         "rules": {
-            "movement": "bWfR3sR",
+            "movement": "bWfW3sR",
             "promotion": "great shark",
             "rank": 5
         }
@@ -673,7 +673,7 @@
             "romaji": "dairin"
         },
         "rules": {
-            "movement": "RbB2fB5",
+            "movement": "RbF2fF5",
             "promotion": null,
             "rank": 5
         }
@@ -687,7 +687,7 @@
             "romaji": "daikyū"
         },
         "rules": {
-            "movement": "R3B",
+            "movement": "W3B",
             "promotion": "wooden dove",
             "rank": 5
         }
@@ -701,7 +701,7 @@
             "romaji": "sōko"
         },
         "rules": {
-            "movement": "vRsR2",
+            "movement": "vRsW2",
             "promotion": "free tiger",
             "rank": 5
         }
@@ -715,7 +715,7 @@
             "romaji": "honko"
         },
         "rules": {
-            "movement": "BbsR",
+            "movement": "sQbR",
             "promotion": null,
             "rank": 5
         }
@@ -729,7 +729,7 @@
             "romaji": "sōyū"
         },
         "rules": {
-            "movement": "vRsR2",
+            "movement": "vRsW2",
             "promotion": "free bear",
             "rank": 5
         }
@@ -743,7 +743,7 @@
             "romaji": "hon'yū"
         },
         "rules": {
-            "movement": "BvR",
+            "movement": "vQ",
             "promotion": null,
             "rank": 5
         }
@@ -757,7 +757,7 @@
             "romaji": "yasha"
         },
         "rules": {
-            "movement": "fFbWsR3",
+            "movement": "fFbWsW3",
             "promotion": "heavenly tetrarch",
             "rank": 5
         }
@@ -771,7 +771,7 @@
             "romaji": "rasetsu"
         },
         "rules": {
-            "movement": "fB3bsW",
+            "movement": "fF3bsW",
             "promotion": "heavenly tetrarch",
             "rank": 5
         }
@@ -785,7 +785,7 @@
             "romaji": "kongō"
         },
         "rules": {
-            "movement": "R3",
+            "movement": "W3",
             "promotion": "heavenly tetrarch",
             "rank": 5
         }
@@ -799,7 +799,7 @@
             "romaji": "rikishi"
         },
         "rules": {
-            "movement": "B3",
+            "movement": "F3",
             "promotion": "heavenly tetrarch",
             "rank": 5
         }
